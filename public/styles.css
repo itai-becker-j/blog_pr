@@ -1,15 +1,17 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
 }
 
 header {
-    background-color: #fd0dc9;
+    background-color: #1f3438;
 }
 
 header img {
-    border: 5px solid white;
+    border: 5px solid #333333;
 }
-
+    
 header h1 {
     font-size: 2.5rem;
     margin-top: 0;
@@ -21,12 +23,12 @@ header p.lead {
 }
 
 .social-links a {
-    color: white;
+    color: #add8e6;
     transition: color 0.3s;
 }
 
 .social-links a:hover {
-    color: #d4d4d4;
+    color: #ffffff;
 }
 
 .card-title {
@@ -35,7 +37,7 @@ header p.lead {
 }
 
 footer {
-    border-top: 1px solid #eaeaea;
+    border-top: 1px solid #333333;
     margin-top: 2rem;
     padding-top: 1rem;
 }
@@ -43,5 +45,5 @@ footer {
 footer p {
     margin-bottom: 0;
     font-size: 0.875rem;
-    color: #6c757d;
+    color: #a0a0a0;
 }
